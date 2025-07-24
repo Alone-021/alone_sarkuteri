@@ -3,9 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Sepetim | Alone Şarküteri</title>
+  <title>İletişim | Alone Şarküteri</title>
   <link rel="stylesheet" href="css/style.css" />
-  <script defer src="js/sepet.js"></script>
 </head>
 <body>
 <header>
@@ -19,14 +18,18 @@
   </nav>
 </header>
 
-<main>
-  <h2>Sepetiniz</h2>
-  <div id="sepet-listesi"></div>
-  <button onclick="temizle()">Sepeti Temizle</button>
+<main class="iletisim-form">
+  <h2>Bizimle İletişime Geçin</h2>
+  <form>
+    <input type="text" placeholder="Ad Soyad" required />
+    <input type="email" placeholder="E-posta" required />
+    <textarea placeholder="Mesajınız" rows="5" required></textarea>
+    <button type="submit">Gönder</button>
+  </form>
 </main>
 
 <footer>
-  <p>&copy; 2025 Alone Şarküteri</p>
+  <p>&copy; 2025 Alone Şarküteri | Tüm Hakları Saklıdır.</p>
 </footer>
 </body>
 </html>

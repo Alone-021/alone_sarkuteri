@@ -1,14 +1,59 @@
-<!-- Anasayfa -->
 <!DOCTYPE html>
-<html lang='tr'>
+<html lang="tr">
 <head>
-<meta charset='UTF-8'>
-<title>Alone Şarküteri</title>
-<link rel='stylesheet' href='css/style.css'>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alone Şarküteri</title>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-<h1>Hoşgeldiniz</h1>
-<!-- Ürünler burada listelenecek -->
-<script src='js/main.js'></script>
+
+  <header>
+    <div class="logo">🍅 Alone Şarküteri</div>
+    <nav>
+      <ul>
+        <li><a href="#">Anasayfa</a></li>
+        <li class="dropdown">
+          <a href="#">Ürünler</a>
+          <ul class="submenu">
+            <li><a href="#">Salça</a></li>
+            <li><a href="#">Yaprak Sarma</a></li>
+            <li><a href="#">Peynir</a></li>
+            <li><a href="#">Zeytin</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Sepetim</a></li>
+        <li><a href="#">İletişim</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="banner">
+    <h1>Doğal ve Yöresel Lezzetler</h1>
+    <p>2.000₺ üzeri siparişlerde kargo ücretsiz!</p>
+  </section>
+
+  <main>
+    <h2>Popüler Ürünler</h2>
+    <div class="products">
+      <div class="product-card">
+        <img src="img/salca.jpg" alt="Salça" />
+        <h3>Ev Yapımı Domates Salçası</h3>
+        <p>1 kg – 75₺</p>
+        <button>Sepete Ekle</button>
+      </div>
+      <div class="product-card">
+        <img src="img/sarma.jpg" alt="Sarma" />
+        <h3>Zeytinyağlı Yaprak Sarma</h3>
+        <p>500 gr – 65₺</p>
+        <button>Sepete Ekle</button>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Alone Şarküteri | Doğal ürünler burada!</p>
+  </footer>
+
 </body>
 </html>
